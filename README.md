@@ -1,12 +1,21 @@
-# VL-AnoDiff: Vision-Language Guided Diffusion for Few-Shot Industrial Anomaly Synthesis
+<div align="center">
+<h1>VL-AnoDiff: Vision-Language Guided Diffusion for Few-Shot Industrial Anomaly Synthesis</h1>
+<br>
+<br>
 
-Welcome to the official repository for **VL-AnoDiff**, a novel approach for few-shot industrial anomaly synthesis using vision-language guided diffusion models.
+<p>
+<a>Mo Li</a>, <a>Shubo Zhou</a>, <a>Weiyu Hu</a>, <a>Xue-Qin Jiang</a>, <a>Yongbin Gao</a>
+
+</div>
+
+
+Welcome to the official repository for **VL-AnoDiff**, a novel diffusion framework for generating anomalous image–mask pairs.
 
 ## Overview
 
-This repository contains the implementation of VL-AnoDiff, which leverages vision-language models (VLMs) to guide diffusion processes for synthesizing industrial anomalies with limited training data.
+This repository contains the implementation of VL-AnoDiff, a novel diffusion framework for generating anomalous image–mask pairs. Our approach leveraged both visual and semantic features of reference samples, while employing semantic anchors to constrain the generated anomalies to be realistic and plausible.
 
-## Repository Status
+## Todo(Latest update:2026/1/21)
 
 We are actively working on releasing the complete codebase. The current release status is as follows:
 
@@ -23,9 +32,7 @@ If you find this work useful in your research, please cite:
 ```bibtex
 @article{vlanodiff2024,
   title={VL-AnoDiff: Vision-Language Guided Diffusion for Few-Shot Industrial Anomaly Synthesis},
-  author={Your Name and Collaborators},
-  journal={Journal/Conference Name},
-  year={2024}
+  author={Mo Li, Shubo Zhou, Weiyu Hu, Xue-Qin Jiang, Yongbin Gao},
 }
 ```
 
